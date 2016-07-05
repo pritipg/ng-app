@@ -7,16 +7,31 @@
 
     var gems = [
         {
-            name: 'Dodecahedron',
+            name: 'Pentagonal Gem',
             price: 2.95,
-            description: 'Some gems have hidden qualities beyond their luster, beyond their shine..',
-            canPurchase: true,
+            description: '..',
+            images: [
+                {
+                    full: 'images/pentagonal.gif'
+                },
+                {
+                    full: 'images/pentagonal-01.gif'
+                }
+            ]
+            
         },
         {
-            name: 'Pentagonal Gem',
+            name: 'Dodecahedron',
             price: 5.95,
-            description: 'Some gems have hidden qualities beyond their luster, beyond their shine..',
-            canPurchase: true
+            description: '..',
+            images: [
+                {
+                    full: 'images/dodecahedron.gif'
+                },
+                {
+                    full: 'images/dodecahedron-01.gif'
+                }
+            ]
         }
     ];
 
